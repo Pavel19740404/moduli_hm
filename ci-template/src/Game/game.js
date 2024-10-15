@@ -3,12 +3,15 @@ class Game {
       console.log('game started');
     }
   }
-  
-  class GameSavingData {
+  export default defaultGame;
+
+import { defaultData } from './domain.js';
+
+  export class GameSavingData {
   }
   
-  function readGameSaving() {
+  export function readGameSaving() {
   }
   
-  function writeGameSaving() {
+  export function writeGameSaving() {
   }
