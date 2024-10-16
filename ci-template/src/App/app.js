@@ -1,5 +1,5 @@
+import Game, { GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from './js/game';
+
 const game = new Game();
 game.start();
-import * as logs from './game.js';
-import {readGameSaving as loadGame} from './game.js';
-import {writeGameSaving as saveGame} from './game.js';
+
